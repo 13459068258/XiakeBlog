@@ -1,0 +1,63 @@
+*, ::before, ::after {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 62.5%;
+    height: 100%;
+    color: #fff;
+    font-family: '正楷'；
+}
+
+@media (max-width:768px) {
+    html, body {
+        font-size: 50%;
+    }
+}
+
+body {
+    background: #7B00FF;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -18rem;
+    margin-top: -25rem;
+    width: 35rem;
+    height: 50rem;
+    background: #fff;
+    box-shadow: 0 0.5rem 5rem rgb(39, 0, 82);
+    font-family: 'Microsoft YaHei', 'Lantinghei SC', 'Open Sans', Arial, 'Hiragino Sans GB', 'STHeiti', 'WenQuanYi Micro Hei', 'SimSun', sans-serif;
+}
+
+.box-1 {
+    
+  
+    position: absolute;
+    z-index: 1;
+    background: rgb(233, 236, 16);
+    top: 0%;
+    width: 100%;
+    height: 30rem;
+}
+
+.box-content {
+    position: relative;
+    border: 1px red solid;
+    height: 10rem;
+}
+
+.box-2 {
+  
+    
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+    background: rgb(238, 68, 0);
+    width: 100%;
+    height: 30rem;
+}

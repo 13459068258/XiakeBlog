@@ -1,0 +1,38 @@
+body {
+    margin: 0%;
+    background: rgb(172, 255, 165);
+    font-family: "正楷";
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+#header h2 {
+    text-align: center;
+}
+
+#content {
+    border: 1px black solid;
+    width: 1515px;
+    height: 900px;
+}
+
+.content-line {
+    border: 1px black solid;
+    width: 100%;
+    height: 400px;
+}
+
+.content-line .row {
+    border: 1px black solid;
+    float: left;
+    width: 500px;
+    height: 400px;
+}

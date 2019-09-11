@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    background: url('../img/img04.jpg') repeat-x left top;
+    font-family: '宋体';
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230, 17, 148);
+}
+
+a:hover {
+    color: red;
+}
+
+#menu {
+    border: 1px black solid;
+    background: #000;
+    height: 55px;
+    padding-left: 250px;
+}
+
+#menu li {
+    float: left;
+    margin-left: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#search-text {
+    display: block;
+    float: right;
+    margin-right: 20px;
+}
+
+#search {
+    display: block;
+    float: right;
+    margin-right: 220px;
+}
+
+#main {
+   border: 0px black solid;  
+    background: rgb(191, 245, 255);
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 1400px; 
+}
+
+#logo {
+   border: 0px black solid; 
+    background: #86cf5c;
+    height: 110px;
+}
+
+#logo-text1 {
+    color: white;
+    font-size: 70px;
+    padding-left: 100px;
+}
+
+#logo-text2 {
+    color: rgb(17, 17, 250);
+    font-size: 15px;
+    padding-left: 220px;
+}
+
+#content {
+   border: 0px black solid;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 1200px;
+}
+
+#content-left {
+    border: 0px black solid; 
+    float: left;
+    width: 66%;
+    height: 1200px;
+}
+
+#content-left-content {
+    border: 0px black solid;
+    margin: 5% 5% 5% 5%;
+}
+
+.left-content {
+    margin: 10px;
+    width: 100%;
+    height: 350px;
+}
+
+.data {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left-content .title {
+    background: url('../img/img09.jpg') no-repeat left;
+    padding-left: 35px;
+}
+
+.left-content .title a{
+    color: #86cf5c;
+}
+
+.content_note {
+    margin-top: 10%;
+}
+
+#content-right {
+    border: 0px black solid;
+    float: right;
+    width: 33%;
+    height: 1200px;
+}
+
+.right-content {
+    margin: 10px;
+    width: 100%;
+    height: 275px;
+}
+
+#main-footer {
+    border: 0px black solid; 
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0 auto ;
+    height: 80px;
+    text-align: center;
+    padding-top: 10px;
+}

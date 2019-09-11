@@ -1,0 +1,94 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: url('../img/bg.jpg') left top;
+}
+
+#main {
+    border: 1px white solid;
+    width: 990px;
+    height: 1340px;
+    margin-left: 270px;
+}
+
+#menu {
+    border: 1px white solid;
+    background: url('../img/menu_bg.jpg') repeat-x left top;
+    width: 100%;
+    height: 100px;
+}
+
+#Introduction {
+    border: 1px white solid;
+    background: url('../img/int_bg.jpg') repeat-x left top;
+    width: 100%;
+    height: 250px;
+}
+
+#content-top {
+    border: 1px white solid;
+    background: url('../img/content_top.jpg') repeat-x left top;
+    width: 100%;
+    height: 140px;
+    margin: 0%;
+}
+
+#content {
+    border: 1px white solid;
+    background: #dcd0c0;
+    width: 940px;
+    height: 700px;
+    margin: 0%;
+    margin-left: 25px;
+}
+
+#content-left {
+    border: 1px rgb(255, 255, 255) solid;
+  
+    width: 600px;
+    height: 100%;
+    float: left;
+}
+
+#left-top {
+    border: 1px rgb(255, 0, 0) solid;
+    width: 100%;
+    height: 300px;
+}
+
+#left-bottom {
+    border: 1px rgb(255, 0, 0) solid;
+    width: 100%;
+    height: 395px;
+   
+}
+
+#content-right {
+    border: 1px rgb(0, 0, 0) solid;
+    width:335px;
+    height: 100%;
+    float: left;
+}
+
+#right-center {
+    background: #7c4907;
+    margin-top:90px;
+    margin-left: 28px;
+    width: 280px;
+    height: 400px;
+}
+
+#content-bottom {
+    border: 1px white solid;
+    background: url('../img/content_bottom.jpg') repeat-x left top;
+    width: 100%;
+    height: 77px;
+    margin: 0%;
+}
+
+#foot {
+    border: 1px rgb(226, 15, 15) solid;
+    width: 990px;
+    height: 60px;
+    
+}

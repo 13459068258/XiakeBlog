@@ -1,0 +1,68 @@
+body {
+    background: url("../img/indexBg.gif") repeat-x left top;
+    font-family: '宋体';
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    font-size: 20px;
+    color: rgb(243, 215, 57);
+}
+
+#content {
+    border: 0px white solid;
+    width: 1100px;
+    height: 600px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 300px;
+}
+
+#logo {
+    border: 0px white solid;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+
+#logo img {
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+}
+
+#logo p {
+    font-size: 40px;
+}
+
+#introduction {
+    border: 0px white solid;
+    width: 100%;
+    height: 290px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#introduction p {
+    font-size: 20px;
+}
+
+.warning {
+    font-size: 16px;
+    color: red;
+}
+
+#navigation li {
+    float: left;
+    list-style: none;
+    margin-top:18px;
+    margin-left: 20px;
+    font-size: 22px;
+    text-shadow: 5px 2px 6px #fff;
+}
