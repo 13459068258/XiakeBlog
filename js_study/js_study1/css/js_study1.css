@@ -1,0 +1,34 @@
+.wrapper {
+    border: 1px black solid;
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.tagcloud {
+    border: 1px black solid;
+    position: relative;
+    margin-top:100px;
+    margin-left: 50px;
+    width: 100%;
+    height: 700px;
+}
+
+.tagcloud a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 11px 30px;
+    color: #333;
+    font-size: 16px;
+    border: 1px solid #1181f1;
+    border-radius: 18px;
+    background-color: #f2f4f8;
+    text-decoration: none;
+    box-shadow: 6px 4px 8px rgba(151, 142, 136);
+}
+
+.tagcloud a:hover {
+    color: #0073d8;
+}
